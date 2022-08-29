@@ -122,7 +122,7 @@ methods
             xlabel('Time (sec)', 'fontname', 'times', 'fontsize', 12)
             ylabel('(deg)', 'fontname', 'times', 'fontsize', 12)
             set(gca, 'fontname', 'times', 'fontsize', 12)
-            legend('\lambda', '\gamma_T', '\gamma_m')
+            legend('\lambda', '\gamma_T', '\gamma_m', 'location', 'best')
             box on
             grid on
 
@@ -162,7 +162,7 @@ methods
             hold on
             if size(obj.Xspan, 1) == 6
                 p.am = plot(obj.tspan, obj.Xspan(6, :) / 9.8, lineType.type2, 'color', lineType.color, 'linewidth', lineType.width);
-                legend('a_c', 'a_m')
+                legend('a_c', 'a_m', 'location', 'best')
             end    
             title('Missile Acceleration', 'fontname', 'times', 'fontsize', 12)
             xlabel('Time (sec)', 'fontname', 'times', 'fontsize', 12)
