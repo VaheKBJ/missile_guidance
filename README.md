@@ -1,7 +1,7 @@
 # missile_guidance
-simple proportional navigation
+Simple Proportional Navigation
 
-![](https://github.com/C4dynamics/ode/blob/main/rocketsim%203.gif)
+![](https://github.com/C4dynamics/missile_guidance/blob/main/simple_pn.gif)
 
 this project is a simple simulation of a guidance system of a missile employing pure proportional navigation.
 
