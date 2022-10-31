@@ -22,7 +22,7 @@ ppn.plotsim(1 : 5)
 which draws 5 basic figures of the engagement.
 
 
-for single trajectory run the file single_run.m. 
+advanced: for single trajectory run the file single_run.m. 
 the target range can be modified by 'range'. 
 the initial heading error with the target can be modified by 'initial_error'.
 
